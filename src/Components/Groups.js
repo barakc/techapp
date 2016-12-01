@@ -4,15 +4,38 @@ import groupsData from '../data/groupsData';
 
 class Groups extends React.Component {
 
+    constructor() {
+        super();
+        this.state = {
+            search: '',
+        }
+    }
+
+    onChange(e) {
+        this.setState({
+            search: e.target.value,
+        })
+    }
+
     render() {
-        var groupList = groupsData.map((map)=> {
+        let groupList = groupsData.filter(
+            (group) => {
+                if (group.group.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 || group.owner_name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1) {
+                    return group;
+                } else {
+                    return false;
+                }
+            }
+        );
+
+        groupList = groupList.map((map)=> {
             const serverHeaderData = (
                 <div className="rowContainer serversRowContainer">
-                    <li>{map.group}</li>
-                    <li>{map.owner_name}</li>
+                    <li className="col-md-6 col-xs-6">{map.group}</li>
+                    <li className="col-md-6 col-xs-6">{map.owner_name}</li>
                 </div>
             );
-
+            
             const userData = (
                 <div className="serverData">
                     <ul>
@@ -29,15 +52,27 @@ class Groups extends React.Component {
             );
         });
         return (
-            <div className="container serverContainer">
-                <div className="rowContainer">
-                    <div className="serverIp rowHeader">Group Name</div>
-                    <div className="serverName rowHeader">Mange By</div>
+            <div className="container">
+                <h2>Search:</h2>
+                <div className="searchBox">
+                    <input
+                        type="text"
+                        className="form-control"
+                        onChange={ this.onChange.bind(this) }
+                        value={this.state.search}
+                    />
                 </div>
-                {groupList}
+                <div className="content serverContainer">
+                    <div className="rowContainer clearfix">
+                        <div className="rowHeader col-md-6 col-xs-6">Group Name</div>
+                        <div className="rowHeader col-md-6 col-xs-6">Mange By</div>
+                    </div>
+                    {groupList}
+                </div>
             </div>
         )
     }
 }
+
 
 export default Groups;

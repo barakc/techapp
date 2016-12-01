@@ -1,121 +1,64 @@
 module.exports = [{
     "id": 1,
-    "full_name": "Ronald Robinson",
+    "full_name": "Barak Cohen",
     "position": "Marketing",
     "email": "rrobinson0@histats.com",
-    "group": "Latz"
+    "group_name": "Webdev",
+    "group_id": "2"
 }, {
     "id": 2,
-    "full_name": "Jonathan Wood",
+    "full_name": "Ilia Mayorov",
     "position": "Product Management",
     "email": "jwood1@edublogs.org",
-    "group": "Devpoint"
+    "group_name": "Webdev",
+    "group_id": "2"
 }, {
     "id": 3,
-    "full_name": "Mildred Little",
+    "full_name": "Michael Vexler",
     "position": "Product Management",
     "email": "mlittle2@addtoany.com",
-    "group": "Yotz"
+    "group_name": "Webdev",
+    "group_id": "2"
 }, {
     "id": 4,
-    "full_name": "Jessica Rice",
+    "full_name": "Hanan Cohen",
     "position": "Services",
     "email": "jrice3@nbcnews.com",
-    "group": "Twinte"
+    "group_name": "QA",
+    "group_id": "3"
 }, {
     "id": 5,
-    "full_name": "Patrick Carpenter",
+    "full_name": "Yevgeni Aronov",
     "position": "Training",
     "email": "pcarpenter4@jigsy.com",
-    "group": "Shufflester"
+    "group_name": "QA",
+    "group_id": "3"
 }, {
     "id": 6,
-    "full_name": "Thomas Dean",
+    "full_name": "Gut Reshef",
     "position": "Research and Development",
     "email": "tdean5@statcounter.com",
-    "group": "Twitterworks"
+    "group_name": "QA",
+    "group_id": "3"
 }, {
     "id": 7,
-    "full_name": "Sharon Armstrong",
+    "full_name": "Yaakov Weizman",
     "position": "Legal",
     "email": "sarmstrong6@macromedia.com",
-    "group": "Ntag"
+    "group_name": "QA",
+    "group_id": "3"
 }, {
-    "id": 8,
-    "full_name": "Benjamin Collins",
-    "position": "Services",
-    "email": "bcollins7@epa.gov",
-    "group": "Devbug"
+    "id": 7,
+    "full_name": "Nehemia Litterat",
+    "position": "Legal",
+    "email": "sarmstrong6@macromedia.com",
+    "group_name": "Admin",
+    "group_id": "1"
 }, {
-    "id": 9,
-    "full_name": "Emily Henry",
-    "position": "Sales",
-    "email": "ehenry8@livejournal.com",
-    "group": "Cogilith"
-}, {
-    "id": 10,
-    "full_name": "Amanda Hunt",
-    "position": "Research and Development",
-    "email": "ahunt9@google.com.au",
-    "group": "Flashset"
-}, {
-    "id": 11,
-    "full_name": "Kenneth Adams",
-    "position": "Training",
-    "email": "kadamsa@google.cn",
-    "group": "Voonyx"
-}, {
-    "id": 12,
-    "full_name": "Alan Gonzales",
-    "position": "Engineering",
-    "email": "agonzalesb@ibm.com",
-    "group": "Twimm"
-}, {
-    "id": 13,
-    "full_name": "Joyce Cox",
-    "position": "Accounting",
-    "email": "jcoxc@ustream.tv",
-    "group": "Brainsphere"
-}, {
-    "id": 14,
-    "full_name": "David Hunter",
-    "position": "Training",
-    "email": "dhunterd@si.edu",
-    "group": "Zoomlounge"
-}, {
-    "id": 15,
-    "full_name": "Fred Peters",
-    "position": "Marketing",
-    "email": "fpeterse@creativecommons.org",
-    "group": "Oyonder"
-}, {
-    "id": 16,
-    "full_name": "Willie Smith",
-    "position": "Product Management",
-    "email": "wsmithf@cpanel.net",
-    "group": "Livetube"
-}, {
-    "id": 17,
-    "full_name": "Julia Hunt",
-    "position": "Training",
-    "email": "jhuntg@imgur.com",
-    "group": "Aibox"
-}, {
-    "id": 18,
-    "full_name": "Nancy Morrison",
-    "position": "Product Management",
-    "email": "nmorrisonh@phpbb.com",
-    "group": "Browsebug"
-}, {
-    "id": 19,
-    "full_name": "Ryan Morris",
-    "position": "Marketing",
-    "email": "rmorrisi@shinystat.com",
-    "group": "JumpXS"
-}, {
-    "id": 20,
-    "full_name": "Terry Myers",
-    "position": "Research and Development",
-    "email": "tmyersj@theatlantic.com",
-    "group": "Aibox"
+    "id": 7,
+    "full_name": "Avner K",
+    "position": "Legal",
+    "email": "sarmstrong6@macromedia.com",
+    "group_name": "Admin",
+    "group_id": "1"
 }]
