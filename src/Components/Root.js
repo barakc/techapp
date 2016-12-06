@@ -4,7 +4,7 @@ import {Link} from 'react-router'
 class Root extends React.Component {
 
     render() {
-        return (
+        return ( 
             <div>
                 <header className="navbar navbar-default">
                     <div className="container">

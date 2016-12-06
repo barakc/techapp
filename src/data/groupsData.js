@@ -1,6 +1,6 @@
 module.exports = [{
     "group_id": 1,
-    "group": "admin",
+    "group": "java",
     "owner_name": "Martin Perkins",
 }, {
     "group_id": 2,

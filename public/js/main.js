@@ -1,34 +1,11 @@
-$(document).ready(function () {      //Add this line (and it's closing line)
-    var dateFormat = "mm/dd/yy",
-        from = $("#from")
-            .datepicker({
-                defaultDate: "+1w",
-                changeMonth: true,
-                numberOfMonths: 1
-            })
-            .on("change", function () {
-                to.datepicker("option", "minDate", getDate(this));
-            }),
-        to = $("#to").datepicker({
-            defaultDate: "+1w",
-            changeMonth: true,
-            numberOfMonths: 1
-        })
-            .on("change", function () {
-                from.datepicker("option", "maxDate", getDate(this));
-            });
-
-    function getDate(element) {
-        var date;
-        try {
-            date = $.datepicker.parseDate(dateFormat, element.value);
-        } catch (error) {
-            date = null;
-        }
-        return date;
-    }
-
+$(document).ready(function () {
+    $('#calendar').fullCalendar({
+        selectable: true,
+        defaultView: basicWeek
+    });
     $('.btnSaveCahnges').on('click', function () {
-        $('#gridSystemModal').modal('hide');
+        if ($('#from').val() !== '' || $('#to').val() !== '') {
+            $('#gridSystemModal').modal('hide');
+        }
     });
 });
