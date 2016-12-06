@@ -1,89 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3db91c7-8ab8-4aac-ae48-1e442d066117" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/PopUp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TFapp.iml" afterPath="$PROJECT_DIR$/.idea/TFapp.iml" />
+    <list default="true" id="e09d9509-45ae-47b6-8086-2c3a5bbac938" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/TFapp.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/react.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/npm-debug.log.1075526693" afterPath="$PROJECT_DIR$/src/Components/Datepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/LICENSE" afterPath="$PROJECT_DIR$/node_modules/react-dom/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/PATENTS" afterPath="$PROJECT_DIR$/node_modules/react-dom/PATENTS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/README.md" afterPath="$PROJECT_DIR$/node_modules/react-dom/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom-server.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/dist/react-dom.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/index.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/server.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/LICENSE" afterPath="$PROJECT_DIR$/node_modules/react/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/PATENTS" afterPath="$PROJECT_DIR$/node_modules/react/PATENTS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/README.md" afterPath="$PROJECT_DIR$/node_modules/react/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react-with-addons.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" afterPath="$PROJECT_DIR$/node_modules/react/dist/react.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/KeyEscapeUtils.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/KeyEscapeUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/LinkedStateMixin.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/LinkedStateMixin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/PooledClass.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/PooledClass.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/React.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/React.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCSSTransitionGroupChild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactChildren.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactChildren.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactClass.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactClass.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponent.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeDevtool.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeDevtool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHook.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentTreeHook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentWithPureRenderMixin.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactComponentWithPureRenderMixin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwner.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactCurrentOwner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMFactories.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactDOMFactories.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElement.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactElementValidator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactFragment.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactFragment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactLink.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactLink.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactNoopUpdateQueue.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactNoopUpdateQueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocationNames.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocationNames.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocations.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypeLocations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypes.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypesSecret.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPropTypesSecret.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactPureComponent.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactPureComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactStateSetters.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactStateSetters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionChildMapping.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionChildMapping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionEvents.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionEvents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionGroup.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactTransitionGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDEntry.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactUMDEntry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactVersion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddons.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddonsUMDEntry.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/ReactWithAddonsUMDEntry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/canDefineProperty.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/canDefineProperty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/checkReactTypeSpec.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/checkReactTypeSpec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/deprecated.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/flattenChildren.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/flattenChildren.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/getIteratorFn.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/getIteratorFn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/onlyChild.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/onlyChild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/reactProdInvariant.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/reactProdInvariant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/shallowCompare.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/shallowCompare.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/sliceChildren.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/sliceChildren.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/traverseAllChildren.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/traverseAllChildren.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/lib/update.js" afterPath="$PROJECT_DIR$/node_modules/react/lib/update.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/package.json" afterPath="$PROJECT_DIR$/node_modules/react/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/react.js" afterPath="$PROJECT_DIR$/node_modules/react/react.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Groups.js" afterPath="$PROJECT_DIR$/src/Components/Groups.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/PopUp.js" afterPath="$PROJECT_DIR$/src/Components/PopUp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Root.js" afterPath="$PROJECT_DIR$/src/Components/Root.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Servers.js" afterPath="$PROJECT_DIR$/src/Components/Servers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Users.js" afterPath="$PROJECT_DIR$/src/Components/Users.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/groupsData.js" afterPath="$PROJECT_DIR$/src/data/groupsData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/usersData.js" afterPath="$PROJECT_DIR$/src/data/usersData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/serversData.js" afterPath="$PROJECT_DIR$/src/data/serversData.js" />
     </list>
-    <ignored path="TFapp.iws" />
+    <ignored path="techapp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,15 +38,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="TFapp" />
+    <favorites_list name="techapp" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -116,31 +56,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Users.js" />
-        <option value="$PROJECT_DIR$/src/Groups.js" />
-        <option value="$PROJECT_DIR$/src/Components/Nomatch.js" />
-        <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/Components/serversData.json" />
-        <option value="$PROJECT_DIR$/src/Components/serversData.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp29645/OptionFair/releases/Skins/8.3-201611090819/WEB-INF/SkinsApp/95/CSS/mobile/styles.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp21866/OptionFair/releases/Skins/8.3-201611171451/WEB-INF/SkinsApp/142/CSS/basic/styles.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp10472/OptionFair/releases/Skins/8.3-201611171850/WEB-INF/SkinsApp/142/CSS/basic/styles.css" />
-        <option value="C:/TFWork/Github/Skins/WebContent/WEB-INF/SkinsApp/142/CSS/basic/styles.css" />
-        <option value="$PROJECT_DIR$/src/data/serversData.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp01545/var/www/wordpress/wp-content/themes/globefinancials/top_menu.php" />
-        <option value="$PROJECT_DIR$/src/Components/Groups.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/Users.js" />
-        <option value="$PROJECT_DIR$/src/Components/Root.js" />
-        <option value="$PROJECT_DIR$/src/Components/PopUp.js" />
-        <option value="$PROJECT_DIR$/public/style.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/src/actions/serversAction.js" />
-        <option value="$PROJECT_DIR$/src/Components/Servers.js" />
-        <option value="$PROJECT_DIR$/src/data/usersData.js" />
         <option value="$PROJECT_DIR$/src/data/groupsData.js" />
+        <option value="$PROJECT_DIR$/public/js/weekpicker.js" />
+        <option value="$PROJECT_DIR$/src/Components/PopUp.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/Components/Datepicker.js" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
       </list>
     </option>
   </component>
@@ -161,22 +83,6 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>AngularJS</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -203,31 +109,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -237,11 +144,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -255,11 +162,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -273,11 +180,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -287,11 +194,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="techapp2" />
+              <option name="myItemId" value="techapp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -303,38 +210,54 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techapp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="js-jscs-nodeInterpreter" value="E:\Programs\node.exe" />
-    <property name="nodejs_interpreter_path" value="E:/Programs/node" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\barak\Desktop\TFapp\src\data" />
-      <recent name="C:\Users\barak\Desktop\TFapp\src\Components" />
-    </key>
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
-      <setting name="path" value="" />
-      <setting name="shellParams" value="" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -370,95 +293,38 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c3db91c7-8ab8-4aac-ae48-1e442d066117" name="Default" comment="" />
-      <created>1479564949614</created>
+      <changelist id="e09d9509-45ae-47b6-8086-2c3a5bbac938" name="Default" comment="" />
+      <created>1480927623968</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1479564949614</updated>
-      <workItem from="1479564950887" duration="8694000" />
-      <workItem from="1479587126639" duration="10000" />
-      <workItem from="1479592756522" duration="439000" />
-      <workItem from="1479593627289" duration="602000" />
-      <workItem from="1479670451416" duration="1758000" />
-      <workItem from="1479673890442" duration="5587000" />
-      <workItem from="1479716570743" duration="868000" />
-      <workItem from="1479722851302" duration="7120000" />
-      <workItem from="1479821643104" duration="9236000" />
-      <workItem from="1479913044055" duration="2316000" />
-      <workItem from="1479987489468" duration="2342000" />
-      <workItem from="1479991348803" duration="1454000" />
-      <workItem from="1479993407221" duration="77000" />
-      <workItem from="1480165722550" duration="9740000" />
-      <workItem from="1480360028921" duration="44000" />
-      <workItem from="1480447064170" duration="6043000" />
-      <workItem from="1480522065274" duration="4552000" />
-      <workItem from="1480534735819" duration="5438000" />
-      <workItem from="1480579419166" duration="2349000" />
+      <updated>1480927623968</updated>
+      <workItem from="1480927625548" duration="1300000" />
+      <workItem from="1480930187443" duration="1557000" />
+      <workItem from="1480944516734" duration="2013000" />
+      <workItem from="1481033468678" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68669000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="4881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13646056" sideWeight="0.89444447" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17697228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21235102" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.10555556" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21444201" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13728632" sideWeight="0.89444447" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.10555556" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -476,270 +342,122 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="24" column="92" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/serversAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="24" column="92" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/serversAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/serversData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/serversData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/serversData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/serversData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Nomatch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29046/OptionFair/releases/Skins/8.3-201611090819/WEB-INF/SkinsApp/95/CSS/mobile/images/loading-position.gif" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29645/OptionFair/releases/Skins/8.3-201611090819/WEB-INF/SkinsApp/95/CSS/mobile/styles.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp21866/OptionFair/releases/Skins/8.3-201611171451/WEB-INF/SkinsApp/142/CSS/basic/styles.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp10472/OptionFair/releases/Skins/8.3-201611171850/WEB-INF/SkinsApp/142/CSS/basic/styles.css" />
-    <entry file="file://C:/TFWork/Github/Skins/WebContent/WEB-INF/SkinsApp/142/CSS/basic/styles.css" />
-    <entry file="file://C:/TFWork/Github/Skins/WebContent/WEB-INF/SkinsApp/142/favicon.ico" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp02315/var/www/wordpress/wp-content/themes/24option/top_menu.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp02283/var/www/wordpress/wp-content/themes/highoption/top_menu.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp01545/var/www/wordpress/wp-content/themes/globefinancials/top_menu.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26791/var/www/wordpress/wp-content/themes/bosscapital/page.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp26430/var/www/wordpress/wp-content/themes/bosscapital/blog_mui.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp54852/OptionFair/content/staging/jsp_include/top_menu_4_home/inline.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp54342/OptionFair/content/staging/jsp_include/top_menu_4_home/index.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp09054/OptionFair/content/staging/index.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp54328/OptionFair/content/staging/inline.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53477/OptionFair/content/staging/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53744/OptionFair/content/staging/wp-content/themes/globefinancials/scripts.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/Groups.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/PopUp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/serversData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+        <state relative-caret-position="96">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/Components/Datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="16" column="95" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/serversAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/PopUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/usersData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="113">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/groupsData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="64">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/usersData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/weekpicker.js" />
+    <entry file="file://$PROJECT_DIR$/src/Components/Servers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2400">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp28160/OptionFair/releases/Skins/8.4-201611300950/WEB-INF/SkinsApp/208/CSS/basic/styles.css" />
+    <entry file="file://$PROJECT_DIR$/src/Components/Datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/PopUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
           <folding />
         </state>
       </provider>

@@ -34,7 +34,7 @@ class Users extends React.Component {
                     <li className="col-md-3 col-xs-3">{map.full_name}</li>
                     <li className="col-md-3 col-xs-3">{map.position}</li>
                     <li className="col-md-3 col-xs-3 userEmail">{map.email}</li>
-                    <li className="col-md-3 col-xs-3">{map.group}</li>
+                    <li className="col-md-3 col-xs-3">{map.group_name}</li>
                 </div>
             );
 

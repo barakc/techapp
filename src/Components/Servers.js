@@ -1,8 +1,10 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
 import ServersList from '../actions/serversAction';
-import $ from 'jquery';
-// import PopUp from './PopUp';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import PopUp from './PopUp';
+import user from '../user';
+
 
 class Servers extends React.Component {
 
@@ -30,28 +32,12 @@ class Servers extends React.Component {
         })
     }
 
-    saveChanges() {
-        if($('#from').val() === '' || $('#to').val() === ''  ) {
-            alert("Can't save change of empty string");
-        } else {
-            this.setState({
-                popUpData: ''
-            });
-            this.setState({
-                dates: {
-                    from: $('#from').val(),
-                    to: $('#to').val()
-                }
-            });
-        }
-    }
-
 
     render() {
 
         let ServerMapping = ServersList.filter(
             (server) => {
-                if (server.Short_name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 || server.Internal_IP.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1) {
+                if (server.Short_name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 || server.Internal_IP.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1 || server.group_name.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1) {
                     return server;
                 } else {
                     return false;
@@ -64,7 +50,7 @@ class Servers extends React.Component {
                     <li className="col-md-3 col-xs-3">{server.Internal_IP}</li>
                     <li className="col-md-3 col-xs-3">{server.Short_name}</li>
                     <li className="col-md-3 col-xs-3">{server.Operator}</li>
-                    <li className="col-md-3 col-xs-3">Group name</li>
+                    <li className="col-md-3 col-xs-3">{server.group_name}</li>
                 </div>
             );
 
@@ -79,11 +65,18 @@ class Servers extends React.Component {
                         <li className="col-md-4"><b>Environment: </b>{server.Environment}</li>
                         <li className="col-md-4"><b>Managed By Cheaf?: </b> {server.Managed_By_chef}</li>
                         <li className="col-md-4"><b>OS: </b>{server.OS_version}</li>
-                        <li>
-                            <button type="button" className="btn btn-primary" data-toggle="modal" value={server}
-                                    onClick={() => this.onClick(server)} data-target="#gridSystemModal">Set Dates
-                            </button>
-                        </li>
+                        { server.group_name === user.group_name || user.is_admin === 1 ?
+                            <li>
+                                <button type="button" className="btn btn-primary" data-toggle="modal" value={server}
+                                        onClick={() => this.onClick(server)} data-target="#gridSystemModal">Set Dates
+                                </button>
+                            </li>
+                            :
+                            <li>
+                                <button type="button" className="btn btn-primary disabled">Set Dates</button>
+                            </li>
+                        }
+
                     </ul>
                 </div>
             );
@@ -93,37 +86,10 @@ class Servers extends React.Component {
                 </Collapsible>
             );
         });
+        const popUpData = this.state.popUpData;
         return (
             <div className="container">
-                <div className="modal fade" id="gridSystemModal" tabIndex="-1" role="dialog"
-                     aria-labelledby="gridSystemModalLabel">
-                    <div className="modal-dialog" role="document">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span
-                                    aria-hidden="true">&times;</span></button>
-                                <h4 className="modal-title" id="gridSystemModalLabel">Set dates
-                                    for {this.state.popUpData.Short_name}</h4>
-                            </div>
-                            <div className="modal-body">
-                                <h4>Server Name: {this.state.popUpData.Short_name}</h4>
-                                <h4>Server IP: {this.state.popUpData.Internal_IP}</h4>
-                                <h4>Owner: {this.state.popUpData.Owner}</h4>
-                            </div>
-
-                            <label htmlFor="from">From</label>
-                            <input type="text" id="from" name="from" />
-                            <label htmlFor="to">to</label>
-                            <input type="text" id="to" name="to" />
-
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" className="btn btn-primary btnSaveCahnges" onClick={this.saveChanges.bind(this)}>Save changes</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <PopUp popUpData={popUpData}/>
                 <h2>Search:</h2>
                 <div className="searchBox">
                     <input
@@ -142,7 +108,12 @@ class Servers extends React.Component {
                             <div className="serverGroup rowHeader col-md-3 col-xs-3">Group</div>
                         </div>
                     </div>
-                    {ServerMapping}
+                    <ReactCSSTransitionGroup
+                        transitionName="transition"
+                        transitionEnterTimeout={500}
+                        transitionLeaveTimeout={300}>
+                        {ServerMapping}
+                    </ReactCSSTransitionGroup>
                 </div>
             </div>
         )
